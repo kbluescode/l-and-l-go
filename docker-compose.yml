@@ -1,0 +1,15 @@
+version: '2'
+services:
+  ember:
+    image: 841461063380.dkr.ecr.us-east-1.amazonaws.com/development/think-ember
+    volumes:
+      - $GOHOME/lunch-and-learn/frontend:/app
+    ports:
+      - "4200:4200"
+      - "45912:45912"
+  postgres:
+    image: kbluescode/postgres 
+  api:
+    image: kbluescode/go-api
+    ports:
+      - "3000:3000"
