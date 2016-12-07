@@ -1,7 +1,7 @@
 version: '2'
 services:
   ember:
-    image: 841461063380.dkr.ecr.us-east-1.amazonaws.com/development/think-ember
+    image: kbluescode/ember:l-and-l
     volumes:
       - $GOHOME/lunch-and-learn/frontend:/app
     ports:
