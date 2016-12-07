@@ -1,6 +1,6 @@
 api/vendor/**
 !api/vendor/manifest
-frontend/node_modules/**
-frontend/bower_components/**
-frontend/tmp/**
-frontend/dist/**
+frontend/node_modules
+frontend/bower_components
+frontend/tmp
+frontend/dist
