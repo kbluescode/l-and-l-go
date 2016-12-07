@@ -1,0 +1,4 @@
+api/vendor
+frontend/node_modules
+frontend/bower_components
+frontend/tmp
